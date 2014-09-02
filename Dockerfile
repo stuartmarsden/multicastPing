@@ -1,5 +1,5 @@
 FROM stuartmarsden/docker-twisted
 MAINTAINER Stuart Marsden <stuartmarsden@gmail.com>
-ADD multiCastClient.py /pyapps/
+ADD multicastPing.py /pyapps/
 WORKDIR /pyapps/
-CMD ["python", "-u", "/pyapps/multiCastClient.py"]
+CMD ["python", "-u", "/pyapps/multicastPing.py"]
